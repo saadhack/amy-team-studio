@@ -1,0 +1,24 @@
+# AMY Team Studio
+
+> AMY Team Studio is a software development studio building high-quality websites, digital products, and scalable software solutions.
+
+## Main Pages
+
+- [Home](http://localhost:3000/en): Overview of AMY Team Studio and its services.
+- [Services](http://localhost:3000/en/services): Software development and digital product services.
+- [Work](http://localhost:3000/en/work): Selected projects and examples of our work.
+- [About](http://localhost:3000/en/about): Information about the studio and its approach.
+- [Contact](http://localhost:3000/en/contact): Contact information and project inquiries.
+
+## Arabic Pages
+
+- [الرئيسية](http://localhost:3000/ar): نبذة عن الاستوديو وخدماته.
+- [الخدمات](http://localhost:3000/ar/services): خدمات تطوير البرمجيات والمنتجات الرقمية.
+- [أعمالنا](http://localhost:3000/ar/work): المشاريع والأعمال المختارة.
+- [من نحن](http://localhost:3000/ar/about): معلومات عن الاستوديو ونهجه في العمل.
+- [تواصل معنا](http://localhost:3000/ar/contact): التواصل لمناقشة المشاريع.
+
+## Notes
+
+- The studio focuses on website development, application development, and scalable software solutions.
+- Project examples should be treated as portfolio demonstrations unless explicitly identified as completed client work.

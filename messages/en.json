@@ -1,0 +1,412 @@
+{
+  "Header":{
+    "home":"Home",
+    "services":"Services",
+    "work":"Work",
+    "about":"About",
+    "contact":"Contact"
+  },
+  "HomePage": {
+    "Hero": {
+      "eyebrow": "Software development studio",
+      "title": "High-quality digital products, <accent>engineered to scale.</accent>",
+      "description": "A software development team building high-quality digital products and scalable software solutions.",
+      "primaryCta": "Start a project",
+      "secondaryCta": "Explore our work",
+      "experienceValue": "5+",
+      "experienceLabel": "Years of experience",
+      "projectsValue": "50+",
+      "projectsLabel": "Projects delivered",
+      "qualityValue": "100%",
+      "qualityLabel": "Focus on quality",
+      "preview": {
+        "projectPath": "amy / digital-products",
+        "explorer": "EXPLORER",
+        "buildStatus": "BUILD STATUS",
+        "readyStatus": "Ready to scale",
+        "focusLabel": "Engineering focus",
+        "focusValue": "Built for performance"
+      }
+    },
+    "SelectedWork": {
+      "eyebrow": "Selected work",
+      "title": "Ideas shaped into <accent>digital experiences.</accent>",
+      "description": "A selection of conceptual projects demonstrating our approach to product design and software engineering.",
+      "viewAll": "View all projects",
+      "conceptLabel": "Concept project",
+      "featuredLabel": "Featured concept / {number}",
+      "featuredSubtitle": "Energy management, simplified.",
+      "featuredDescription": "A concept for a modern energy platform that brings usage insights, monitoring and operational data into one clear interface.",
+      "featuredNote": "An illustrative project concept, not a client case study.",
+      "featuredCta": "Build something like this",
+      "projectCta": "Discuss a project like {name}",
+      "similarProjectCta": "Discuss a similar project",
+      "footerDescription": "Every product starts with a problem worth solving. Let’s figure out yours.",
+      "footerCta": "Start a conversation",
+      "projects": {
+        "fitora": {
+          "category": "Mobile application",
+          "title": "Fitness, built around you.",
+          "description": "A personalized fitness experience designed to make healthy habits easier to build and maintain."
+        },
+        "brandcraft": {
+          "category": "E-commerce platform",
+          "title": "Commerce without complexity.",
+          "description": "A streamlined commerce experience for managing products, orders and customer relationships."
+        },
+        "lumina": {
+          "category": "Digital experience",
+          "title": "A sharper digital identity.",
+          "description": "A distinctive digital presence built around thoughtful design and a seamless user experience."
+        }
+      },
+      "preview": {
+        "dailySteps": "Daily steps",
+        "goalReached": "Goal reached",
+        "revenue": "Revenue",
+        "orders": "Orders",
+        "customers": "Customers",
+        "digitalExperiences": "Digital experiences",
+        "madeToStandOut": "Made to stand out.",
+        "energyUsage": "Energy usage",
+        "costTracking": "Cost tracking",
+        "thisMonth": "This month",
+        "liveStatus": "Live status",
+        "active": "Active",
+        "monitoring": "Monitoring",
+        "energyOverview": "Energy overview",
+        "usageOverview": "Usage overview",
+        "sampleData": "Sample data",
+        "webPlatformConcept": "Web platform / Concept"
+      }
+    },
+    "Services": {
+      "eyebrow": "What we do",
+      "title": "Software built around your goals.",
+      "description": "From the first idea to a reliable product, we combine thoughtful engineering with practical problem-solving.",
+      "web": {
+        "title": "Web development",
+        "description": "Responsive, reliable web applications built around your users and business goals."
+      },
+      "backend": {
+        "title": "Backend & API engineering",
+        "description": "Secure server-side systems and APIs designed for maintainability and growth."
+      },
+      "frontend": {
+        "title": "Frontend development",
+        "description": "Fast, accessible interfaces that make complex products easier to use."
+      },
+      "product": {
+        "title": "Product design & implementation",
+        "description": "Clear product experiences translated into practical, production-ready software."
+      },
+      "maintenance": {
+        "title": "Optimization & maintenance",
+        "description": "Improve performance, resolve technical issues, and keep existing products dependable."
+      },
+      "viewAll": "Explore our services"
+    },
+    "Process": {
+      "eyebrow": "How we work",
+      "title": "A clear process. <accent>Thoughtful execution.</accent>",
+      "description": "Every project moves forward through clear decisions, focused development, and continuous feedback.",
+      "discover": {
+        "title": "Discover",
+        "description": "Understand your goals, users, requirements, and constraints.",
+        "label": "Understand the problem",
+        "deliverable": "Strategy & requirements"
+      },
+      "design": {
+        "title": "Design",
+        "description": "Define the product direction, technical approach, and delivery plan.",
+        "label": "Shape the experience",
+        "deliverable": "UX/UI & product direction"
+      },
+      "engineer": {
+        "title": "Engineer",
+        "description": "Build, test, and refine the product with attention to quality.",
+        "label": "Build with purpose",
+        "deliverable": "Tested, working product"
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Prepare for release and identify opportunities for continued improvement.",
+        "label": "Ship and improve",
+        "deliverable": "Release & next steps"
+      },
+      "outcomeLabel": "Key outcome",
+      "footerDescription": "Clear milestones. Thoughtful decisions. No unnecessary complexity.",
+      "footerCta": "Let’s discuss your project"
+    },
+    "WhyAmy": {
+      "eyebrow": "The AMY approach",
+      "title": "Built with purpose. <accent>Engineered for the long term.</accent>",
+      "description": "We focus on the decisions that make software easier to use, maintain, and grow.",
+      "clarity": {
+        "title": "Clarity first",
+        "description": "Clear requirements and communication keep projects moving in the right direction."
+      },
+      "quality": {
+        "title": "Quality by design",
+        "description": "Maintainable code and thoughtful implementation are part of the process from day one."
+      },
+      "performance": {
+        "title": "Performance matters",
+        "description": "We consider loading speed, responsiveness, and efficiency throughout development."
+      },
+      "longevity": {
+        "title": "Designed to evolve",
+        "description": "Practical architecture helps products adapt as needs and expectations change."
+      },
+      "supportingLine": "Purposeful decisions. Practical solutions.",
+      "closingDescription": "Good engineering makes the product work today — and helps it keep working tomorrow.",
+      "footerCta": "Get to know our approach"
+    },
+    "ContactCTA": {
+      "eyebrow": "Have a project in mind?",
+      "title": "Let’s build <accent>something that moves your business forward.</accent>",
+      "description": "Tell us what you're working on and let's explore the right next step.",
+      "button": "Discuss your project",
+      "note": "No pressure. Just a conversation about your idea.",
+      "tagline": "From first idea to launch"
+    }
+  },
+  "ServicesPage": {
+    "eyebrow": "Our services",
+    "title": "The right engineering for your next stage.",
+    "intro": "We help turn ideas into dependable digital products through focused development, thoughtful architecture, and practical technical decisions.",
+    "heroCta": "Discuss your project",
+    "listEyebrow": "What we build",
+    "listTitle": "Services designed around real needs.",
+    "listIntro": "Choose the support you need today, with room to evolve as your product grows.",
+    "services": {
+      "web": {
+        "title": "Web application development",
+        "description": "Custom web applications built for usability, reliability, and future growth.",
+        "deliverables": [
+          "Business and customer-facing applications",
+          "Responsive interfaces",
+          "Integration with external services"
+        ]
+      },
+      "backend": {
+        "title": "Backend & API engineering",
+        "description": "Structured server-side systems that handle data, business rules, authentication, and integrations.",
+        "deliverables": [
+          "REST API development",
+          "Database design and integration",
+          "Authentication and authorization"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend development",
+        "description": "Accessible, responsive user interfaces with a strong focus on performance and maintainability.",
+        "deliverables": [
+          "Component-based interfaces",
+          "Responsive layouts",
+          "Frontend performance improvements"
+        ]
+      },
+      "product": {
+        "title": "Product design & implementation",
+        "description": "Translate product requirements into clear user experiences and working software.",
+        "deliverables": [
+          "User flows and interface planning",
+          "Feature implementation",
+          "Product iteration and refinement"
+        ]
+      },
+      "maintenance": {
+        "title": "Optimization & maintenance",
+        "description": "Improve existing applications, address technical issues, and strengthen long-term reliability.",
+        "deliverables": [
+          "Performance audits and improvements",
+          "Bug fixing and refactoring",
+          "Ongoing technical support"
+        ]
+      }
+    },
+    "approachEyebrow": "Our approach",
+    "approachTitle": "Progress through clear decisions.",
+    "approachDescription": "We keep the process practical and transparent, so everyone understands what is being built and why.",
+    "approach": {
+      "discover": {
+        "title": "Discover",
+        "description": "Understand the problem, the users, and the outcome the product needs to achieve."
+      },
+      "plan": {
+        "title": "Plan",
+        "description": "Agree on priorities, scope, technical direction, and a realistic delivery plan."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Develop and test the solution in focused stages, with regular communication."
+      },
+      "improve": {
+        "title": "Improve",
+        "description": "Review the result, address feedback, and identify the next valuable improvements."
+      }
+    },
+    "technologyEyebrow": "Engineering principles",
+    "technologyTitle": "Technology should serve the product.",
+    "technologyDescription": "We choose tools and architecture based on the requirements, team needs, performance goals, and long-term maintainability—not trends alone.",
+    "ctaEyebrow": "Have a challenge to solve?",
+    "ctaTitle": "Let's find a practical way forward.",
+    "ctaButton": "Start a conversation"
+  },
+  "WorkPage": {
+    "eyebrow": "Selected work",
+    "title": "Concepts built around possibilities.",
+    "intro": "Explore a selection of conceptual digital products that demonstrate our thinking around interfaces, product structure, and software experiences.",
+    "conceptNote": "These are concept projects created to demonstrate design and development direction. They are not presented as completed client engagements.",
+    "galleryEyebrow": "Project gallery",
+    "galleryTitle": "Different ideas. One thoughtful approach.",
+    "galleryIntro": "Each concept explores a different product challenge, from commerce to fitness and creative tools.",
+    "conceptLabel": "Concept project",
+    "projects": {
+      "voltora": {
+        "title": "Voltora",
+        "category": "Commerce platform",
+        "description": "A modern commerce concept focused on product discovery, clear information, and a streamlined shopping experience.",
+        "tags": [
+          "E-commerce",
+          "Product UX",
+          "Web development"
+        ]
+      },
+      "fitora": {
+        "title": "Fitora",
+        "category": "Fitness platform",
+        "description": "A fitness product concept that organizes activity, progress, and training information into a focused experience.",
+        "tags": [
+          "Fitness",
+          "Dashboard",
+          "Responsive UI"
+        ]
+      },
+      "brandcraft": {
+        "title": "BrandCraft",
+        "category": "Creative platform",
+        "description": "A platform concept for organizing brand assets and helping teams maintain a consistent visual identity.",
+        "tags": [
+          "Brand systems",
+          "Creative tools",
+          "Web application"
+        ]
+      },
+      "lumina": {
+        "title": "Lumina",
+        "category": "Digital experience",
+        "description": "A digital product concept exploring calm visual hierarchy, purposeful interactions, and clear content presentation.",
+        "tags": [
+          "Digital product",
+          "Interface design",
+          "Frontend"
+        ]
+      }
+    },
+    "ctaEyebrow": "Your idea could be next",
+    "ctaTitle": "Have a challenge worth building for?",
+    "ctaButton": "Discuss your project"
+  },
+  "AboutPage": {
+    "eyebrow": "About AMY Team Studio",
+    "title": "We build software with clarity and purpose.",
+    "intro": "AMY Team Studio is a software development team focused on creating thoughtful digital products and dependable software solutions.",
+    "supportingText": "Our approach combines practical engineering, clear communication, and attention to the details that shape a product's long-term value.",
+    "philosophyEyebrow": "Our philosophy",
+    "philosophyTitle": "Good software is more than code that works.",
+    "philosophyParagraph1": "It should solve a real problem, make sense to the people using it, and remain understandable to the people maintaining it.",
+    "philosophyParagraph2": "That is why we value clear requirements, deliberate technical decisions, and a process that keeps the product's goals at the center.",
+    "philosophyQuote": "Build for the problem today, with room for what comes next.",
+    "principlesEyebrow": "What guides us",
+    "principlesTitle": "Principles behind every decision.",
+    "principlesIntro": "We use these principles to keep our work useful, maintainable, and aligned with the outcomes that matter.",
+    "principles": {
+      "clarity": {
+        "title": "Clarity",
+        "description": "We make requirements, decisions, and trade-offs understandable throughout the project."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We aim for clean implementation, consistent behavior, and maintainable code."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "We consider speed, responsiveness, and efficient resource use as part of product quality."
+      },
+      "longevity": {
+        "title": "Longevity",
+        "description": "We build with change in mind, so products can grow without unnecessary complexity."
+      }
+    },
+    "collaborationEyebrow": "Working together",
+    "collaborationTitle": "A shared understanding makes better products.",
+    "collaborationIntro": "We work to keep communication direct, expectations realistic, and progress visible at every stage.",
+    "collaboration": {
+      "understand": {
+        "title": "Understand",
+        "description": "We learn about your goals, audience, constraints, and definition of success."
+      },
+      "align": {
+        "title": "Align",
+        "description": "We agree on priorities, scope, responsibilities, and the technical direction."
+      },
+      "deliver": {
+        "title": "Deliver",
+        "description": "We build in focused stages and use feedback to keep the result on track."
+      }
+    },
+    "ctaEyebrow": "Let's work together",
+    "ctaTitle": "Have an idea you'd like to bring to life?",
+    "ctaButton": "Talk to our team"
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about what you're building.",
+    "intro": "Tell us about your idea, the problem you're trying to solve, or the product you want to improve. We'll use that context to understand what you need.",
+    "asideEyebrow": "Start a conversation",
+    "asideTitle": "Good projects begin with a clear conversation.",
+    "asideDescription": "You don't need a complete specification to get started. A description of your goals and challenges is enough to begin exploring the right direction.",
+    "projectNoteTitle": "What should you include?",
+    "projectNote": "Share the purpose of the project, who it is for, the main features you have in mind, and any constraints you already know about.",
+    "otherWaysTitle": "Still exploring?",
+    "otherWaysDescription": "Learn more about our capabilities and approach before getting in touch.",
+    "backHome": "Back to home",
+    "formTitle": "Tell us about your project",
+    "formDescription": "Complete the fields below. Required fields are marked by your browser's standard validation.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Jane Smith",
+      "email": "Email address",
+      "emailPlaceholder": "jane@company.com",
+      "service": "What do you need?",
+      "servicePlaceholder": "Choose a service",
+      "services": {
+        "web": "Web application development",
+        "backend": "Backend & API engineering",
+        "frontend": "Frontend development",
+        "product": "Product design & implementation",
+        "maintenance": "Optimization & maintenance",
+        "other": "Something else"
+      },
+      "budget": "Estimated budget",
+      "optional": "Optional",
+      "budgetPlaceholder": "Choose a range",
+      "budgets": {
+        "under1000": "Under $1,000",
+        "1000to5000": "$1,000 – $5,000",
+        "5000to10000": "$5,000 – $10,000",
+        "over10000": "Over $10,000",
+        "undecided": "Not decided yet"
+      },
+      "message": "Project details",
+      "messagePlaceholder": "What are you building, what problem should it solve, and what would a successful outcome look like?",
+      "messageHint": "Please enter at least 20 characters.",
+      "submit": "Send project inquiry",
+      "sending": "Sending...",
+      "success": "Your inquiry has been submitted. Thank you for getting in touch.",
+      "error": "We couldn't submit your inquiry. Please try again in a moment."
+    }
+  }
+}

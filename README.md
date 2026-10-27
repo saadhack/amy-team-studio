@@ -1,36 +1,215 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AMY Team Studio
 
-## Getting Started
+موقع **AMY Team Studio** هو موقع تعريفي لاستوديو تطوير برمجيات، يهدف إلى عرض الخدمات والمشروعات وطريقة العمل وتسهيل التواصل مع العملاء.
 
-First, run the development server:
+يدعم المشروع العربية والإنجليزية، ويستخدم بنية صفحات مبنية على Next.js App Router.
+
+> **ملاحظة:** بعض المشروعات المعروضة قد تكون نماذج تصورية لأغراض العرض، وليست بالضرورة أعمالًا منفذة لعملاء حقيقيين. تأكد من تحديث محتوى المشروع بما يعكس الواقع قبل النشر.
+
+## المحتويات
+
+- [التقنيات](#التقنيات)
+- [المتطلبات](#المتطلبات)
+- [بدء التشغيل](#بدء-التشغيل)
+- [متغيرات البيئة](#متغيرات-البيئة)
+- [هيكل المشروع](#هيكل-المشروع)
+- [اللغات والترجمة](#اللغات-والترجمة)
+- [التصميم والوضع اللوني](#التصميم-والوضع-اللوني)
+- [التحقق من المشروع](#التحقق-من-المشروع)
+- [البناء والنشر](#البناء-والنشر)
+- [ملاحظات التطوير](#ملاحظات-التطوير)
+
+## التقنيات
+
+التقنيات الأساسية المتوقعة في المشروع:
+
+- **Next.js** — إطار تطبيق الويب باستخدام App Router.
+- **React** — بناء واجهات المستخدم.
+- **TypeScript** — كتابة كود مع أنواع ثابتة.
+- **Tailwind CSS 4** — تنسيق الواجهات.
+- **next-intl** — إدارة الترجمات والتوجيه متعدد اللغات.
+- **next-themes** — إدارة الوضع الفاتح والداكن، إذا كان مثبتًا ومفعّلًا في المشروع.
+
+لمعرفة الإصدارات المثبتة فعليًا، راجع `package.json` وملف القفل الخاص بمدير الحزم المستخدم.
+
+## المتطلبات
+
+قبل التشغيل، تأكد من توفر:
+
+- إصدار Node.js متوافق مع إصدار Next.js المثبت.
+- npm أو مدير الحزم المستخدم في المشروع.
+- Git، إذا كنت تستخدم نظام التحكم بالإصدارات.
+
+## بدء التشغيل
+
+### 1. تثبيت الاعتماديات
+
+من المجلد الرئيسي للمشروع، نفّذ:
+
+```bash
+npm install
+```
+
+### 2. إعداد متغيرات البيئة
+
+إذا كان المشروع يحتاج إلى متغيرات بيئة، أنشئ ملف `.env.local` في المجلد الرئيسي وأضف القيم المطلوبة.
+
+راجع قسم [متغيرات البيئة](#متغيرات-البيئة)، ولا تضع كلمات مرور أو مفاتيح سرية داخل الكود أو ملفات Git.
+
+### 3. تشغيل بيئة التطوير
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+افتح [http://localhost:3000](http://localhost:3000) في المتصفح، ما لم يحدد الطرفية منفذًا آخر.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## متغيرات البيئة
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+أضف فقط المتغيرات التي يستخدمها الكود فعلًا. على سبيل المثال، إذا كان المشروع يستخدم عنوان الموقع لتكوين روابط SEO مطلقة، فقد يحتاج إلى:
 
-## Learn More
+```dotenv
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+في بيئة الإنتاج، استبدل العنوان بعنوان الموقع الحقيقي، مثل `https://example.com`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**تنبيهات:**
+- `NEXT_PUBLIC_*` متغيرات يمكن أن تظهر قيمها في كود المتصفح؛ لا تستخدمها للأسرار.
+- لا تضف متغيرات غير مستخدمة في المشروع.
+- إذا كان لديك ملف `.env.example`، فحدّثه ليعكس المتغيرات المطلوبة من دون تضمين قيم سرية.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## هيكل المشروع
 
-## Deploy on Vercel
+قد يختلف الهيكل الفعلي قليلًا حسب الملفات الموجودة في المستودع. الهيكل التالي يوضح التنظيم المقترح للمشروع:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+.
+├── app/
+│   ├── [locale]/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── services/
+│   │   ├── work/
+│   │   ├── about/
+│   │   └── contact/
+│   ├── globals.css
+│   ├── robots.ts
+│   └── sitemap.ts
+├── components/
+│   ├── home/
+│   ├── layout/
+│   └── ui/
+├── i18n/
+│   ├── navigation.ts
+│   ├── request.ts
+│   └── routing.ts
+├── messages/
+│   ├── ar.json
+│   └── en.json
+├── public/
+├── package.json
+└── README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+هذا مثال توضيحي وليس ضمانًا بأن كل ملف أو مجلد موجود بالفعل. راجع الملفات الفعلية قبل إضافة ملفات جديدة.
+
+## اللغات والترجمة
+
+يستخدم المشروع `next-intl` لإدارة النصوص متعددة اللغات. توجد ملفات الرسائل عادةً في:
+
+- `messages/ar.json` — النصوص العربية.
+- `messages/en.json` — النصوص الإنجليزية.
+
+### إضافة نص جديد
+
+1. أضف مفتاحًا مناسبًا في ملفي الترجمة، مع الحفاظ على بنية مفاتيح متطابقة.
+2. استخدم المفتاح في الـ Component المناسب باستخدام `getTranslations` داخل Server Components أو `useTranslations` داخل Client Components عند الحاجة.
+3. تجنب كتابة نصوص واجهة المستخدم مباشرةً داخل المكونات إذا كان ينبغي أن تظهر باللغتين.
+4. تحقق من عدم وجود مفاتيح مفقودة أو مكررة.
+
+مثال داخل Server Component:
+
+```tsx
+import { getTranslations } from "next-intl/server";
+
+export default async function ExampleSection() {
+  const t = await getTranslations("HomePage.Hero");
+
+  return (
+    <section>
+      <p>{t("eyebrow")}</p>
+      <h1>{t("title")}</h1>
+    </section>
+  );
+}
+```
+
+استخدم مفاتيح الترجمة الموجودة فعلًا في ملفات JSON. المثال يفترض وجود `HomePage.Hero.eyebrow` و`HomePage.Hero.title`.
+
+### الروابط المحلية
+
+استخدم `Link` من ملف التنقل المحلي، إذا كان مهيأً باستخدام `next-intl`:
+
+```tsx
+import { Link } from "@/i18n/navigation";
+```
+
+يساعد ذلك على تطبيق قواعد التوجيه متعددة اللغات المعرفة في `i18n/routing.ts`.
+
+## التصميم والوضع اللوني
+
+تُدار الأنماط العامة في `app/globals.css`، وتُستخدم مكونات React داخل `components/` لبناء أجزاء الواجهة القابلة لإعادة الاستخدام.
+
+- أعد استخدام متغيرات الألوان المعرفة في `globals.css` بدل تكرار قيم الألوان في الصفحات.
+- حافظ على التباين وسهولة القراءة وإمكانية الوصول.
+- اختبر الواجهة بالعربية والإنجليزية، مع التأكد من اتجاه `RTL` و`LTR`.
+- إذا كان `next-themes` مستخدمًا، فتحقق من عمل الوضعين الفاتح والداكن ومن عدم ظهور أخطاء hydration.
+
+لا تفترض أن جميع عناصر الموقع تدعم الوضعين قبل اختبارها فعليًا.
+
+## التحقق من المشروع
+
+راجع الأوامر الموجودة في قسم `scripts` داخل `package.json` قبل تشغيلها. الأوامر الشائعة في مشاريع Next.js هي:
+
+```bash
+npm run lint
+npm run build
+```
+
+إذا كان المشروع يعرّف أمرًا لفحص TypeScript، شغّله أيضًا. لا تفترض وجود `typecheck` أو `lint` إذا لم يكن معرفًا في `package.json`.
+
+بعد التغييرات، اختبر على الأقل:
+
+- الصفحة الرئيسية باللغتين.
+- التنقل بين الصفحات مع الحفاظ على اللغة.
+- اتجاه النص والتخطيط في العربية والإنجليزية.
+- الوضع الفاتح والداكن، إذا كانا مفعّلين.
+- الروابط والأزرار ونموذج التواصل، مع التحقق من أن الوظائف الخلفية متصلة فعلًا.
+
+## البناء والنشر
+
+لإنشاء نسخة إنتاجية محلية:
+
+```bash
+npm run build
+npm run start
+```
+
+تأكد من أن أوامر `build` و`start` موجودة في `package.json`.
+
+قبل النشر:
+
+1. اضبط متغيرات البيئة على قيم الإنتاج الصحيحة.
+2. استخدم عنوان الموقع الحقيقي في إعدادات SEO والروابط المطلقة.
+3. تحقق من `robots.txt` و`sitemap.xml` وبيانات `canonical` و`hreflang` إن كانت مفعّلة.
+4. اختبر صفحات العربية والإنجليزية على بيئة الإنتاج.
+5. لا تنشر بيانات سرية أو ملفات `.env.local` داخل المستودع.
+
+## ملاحظات التطوير
+
+- حافظ على بساطة المكونات ومسؤولية واضحة لكل Component.
+- فضّل Server Components ما لم تكن هناك حاجة فعلية إلى تفاعل من المتصفح.
+- لا تضف اعتماديات جديدة قبل التأكد من أن المشروع لا يوفّر الوظيفة المطلوبة بالفعل.
+- عند تعديل إعدادات Next.js أو `next-intl`، راجع التوثيق المتوافق مع الإصدارات المثبتة.
+- حدّث هذا الملف عندما تتغير بنية المشروع أو أوامر التشغيل أو متطلبات الإعداد.
